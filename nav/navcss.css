@@ -1,0 +1,67 @@
+.hort ul {
+    list-style-type: none;
+   width:97%;
+   background-color:#ACAC10;margin:0px;border-bottom: 3px solid grey;
+   border-radius:5px;
+}
+.hort ul li{
+    display:inline-block;
+    background-color:#ACAC10;
+    width:10%;padding: 20px;margin-left:30px;text-align: center;
+}
+.hort ul li a{
+    padding-left:10px;
+}
+.vert{
+    width:10%;`
+    padding:0px;
+}
+.vert ul{
+    list-style-type: none;
+    width:100%;
+    margin-top:6px;margin-left:0px;padding-left:0px;
+
+}
+
+.vert ul li{
+    display: block;
+    background-color:#ACAC10;
+    width:100%;text-align:center;
+    padding:10px;border-radius:5px;
+    height: 60px;border-bottom: 3px solid white;
+}
+
+.text{
+    text-decoration: none;font-family: Arial, Helvetica, sans-serif;color:black;text-align:center;
+}
+.hort ul li:hover> a{color:black; 
+    
+    transition: background-color 2s ease;font-style:italic;font-size:20px;
+    text-shadow:1px 2px 2px;
+    
+}
+.hort ul li:hover{
+    background-color:grey;
+    transition: background-color 2s ease;
+    
+}
+
+.vert ul li:hover{
+    background-color:grey;
+    transition: background-color 2s ease;
+    
+}
+.vert ul li:hover> a{color:black; 
+    
+    transition: background-color 2s ease;font-style:italic;font-size:20px;
+    text-shadow:1px 2px 2px;
+    
+}
+.himg{
+    width:20px;
+    height: 20px;
+}
+.vimg{
+    width:20px;
+    height:20px;
+}
